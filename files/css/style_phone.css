@@ -1,0 +1,130 @@
+/* header */
+
+.ui-header .ui-btn-left .ui-btn-inner {
+    padding-left: 27px;
+    padding-right: 5px;
+}
+
+.ui-header .ui-btn-right .ui-btn-inner {
+    padding-left: 5px;
+    padding-right: 27px;
+}
+
+.ui-header .morebutton .ui-icon {
+    left: 11px !important;
+}
+
+.ui-header .ui-btn-icon-left .ui-icon {
+    left: 5px;
+}
+
+.ui-header .ui-btn-icon-right .ui-icon {
+    right: 5px;
+}
+
+.ui-header .ui-title {
+  margin-top:1em;
+  margin-bottom:1em;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  font-size:11px;
+}
+
+/* contentheader */
+.if_logo img {height: 60px;}
+/*.managericon {height: 100px;}*/
+
+.langselector {padding-top:0px;}
+.langselector img.flag {height: 18px;}
+.langselector .ui-btn-text {
+    font-size: 0.5em;
+    padding: 0px 0px 0px 0px;
+}
+.langselector .ui-btn-inner {
+  padding: 5px 7px 4px 7px;
+}
+
+/* content */
+.ui-content {
+  min-height: 270px; 
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+h1 {font-size: 1em;}
+h2 {font-size: 0.9em;}
+.contentheader {padding: 0px 0px 0px 0px;}
+.contentbody {padding: 0px 0px 5px 0px; }
+
+.breadcrumb {
+  color: #666; 
+  font-size: 0.75em;
+  
+  }
+
+/* copyright */
+.copyright p {font-size: 0.75em;}
+
+/* checkout page */
+.managericon {height: 100px;}
+
+
+/* splashscreen */ 
+.splashcontent {
+  padding-top: 75px;
+}
+.splashcontent img {
+  width: 80%; 
+  max-width: 300px;
+}
+
+/* ratingpage */
+h2.question { font-size: 1.3em !important;}
+.ratinglabel {
+    font-size: 1.2em;
+}
+
+/* button list */ 
+.ui-content .ui-listview-inset {
+  margin: 0.3em 0;
+}
+.ui-li-icon {width: 28px;}
+.ui-listview .ui-li-icon {
+   top: 0.4em; 
+   left: 0.4em; 
+}
+.liststars { height: 16px; }
+.ui-li-has-count .ui-li-count {
+    margin-top: -1.2em;
+    padding: 0.2em 0.5em;
+    right: 30px;
+}
+
+
+/* footer navigation */
+.logocust {height: 82px;	padding: 2px 0 0 0;margin:0;}
+.logocust img {max-height: 80px; margin:0; max-width: 100%;}
+
+.nav-glyphish-example .ui-btn-text {
+  padding:0;
+  font-size: 0.75em; 
+}
+
+.nav-glyphish-example .ui-btn-inner {
+  padding: 0 0 3px 0; 
+  
+}
+
+/* counter */ 
+.outer-counter {
+
+	top:-19px;
+	left:55%;
+
+}
+
+/* fix for info button without icon */
+.ui-header .morebutton-no-icon .ui-btn-inner {
+    padding-left: 11px;
+    padding-right: 11px;
+}

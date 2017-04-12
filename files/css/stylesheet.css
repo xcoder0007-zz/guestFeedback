@@ -1,0 +1,29 @@
+/* default styles for extension "tx_felogin_pi1" */
+	.tx-felogin-pi1 label {
+		display: block;
+	}
+	/* ============================================================
+  COMMON
+============================================================ */
+#wrapper {
+  min-width: 600px;
+}
+
+.settings {
+  display: table;
+  width: 100%;
+}
+.settings .row {
+  display: table-row;
+}
+.settings .question,
+.settings .switch {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+.settings .question {
+  width: 600px;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}

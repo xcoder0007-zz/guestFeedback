@@ -1,0 +1,304 @@
+/* contentheader */
+.langselector {text-align: right; }
+
+/* no active Campaign */
+#no_campaign {
+  text-align: center; 
+  padding: 10% 10% 10% 10%;
+}
+
+#no_campaign img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2em;
+}
+
+
+/* screens */
+#splashbox {
+position: absolute;
+background-color:#fff;
+height: 200px;
+width: 250px;
+top: 50%;
+left: 50%;
+margin-top: -100px; /* halbe Boxh�he */
+margin-left: -125px; /* halbe Boxh�he */
+text-align: center; 
+}
+
+#splashbox img {
+  width: 100%;
+  max-width: 250px;
+}
+
+#splashbox p {
+  color: #666; 
+  font-size: 0.8em;
+}
+
+
+/* content */
+.center {text-align: center;}
+
+/* checkout page */
+
+
+/* ratingpage */
+h2.question { font-size: 1.3em !important;}
+.ratinglabel {
+   font-style: italic; 
+}
+
+h2.question small {
+  font-weight: normal;
+  display: block;
+  font-style: italic;
+  color: #666;
+  }
+
+/* button */
+.buttonaction {text-align: center; }
+.buttonaction .ui-btn-icon-left .ui-btn-inner {
+    padding-left: 63px;
+}
+.buttonaction .ui-btn-inner {
+    padding-right: 50px;
+}
+
+/* splashscreen 
+.splashcontent {
+  text-align: center;  
+  margin-bottom: 20px;
+}
+
+.splashlogobox {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 10px ;
+  max-width: 300px;
+}
+.splashcontent img {
+
+}
+*/
+
+/* copyright */
+.copyright p {margin: 0; text-align: center; color: #666; padding-bottom:4px; }
+.copyright a {font-weight: normal !important; color: #666 !important; text-decoration: none;}
+
+/* button list */ 
+
+
+
+/* footer navigation */
+.logocust {
+	border-bottom: 0px solid #2a2a2a;
+	text-align: center;
+}
+.ui-footer { border: 0px; }
+.footernav {text-align: center; color: #cccccc; font-weight:normal;}
+.footernav a.ui-link, .footernav a.ui-link:visited {text-decoration: none;color: #cccccc;font-weight:normal;}
+.footernav {padding: 3px; font-size: 0.8em;}
+.footernav a.ui-link, .footernav a.ui-link:visited {font-size: 0.8em;}
+
+#more_btn .ui-icon {
+	background: url(../icons/00-more.png) 50% 50% no-repeat;
+	background-size: 22px 24px;
+}
+.nav-glyphish-example .ui-btn-text {
+
+}
+
+/* feedbackform */
+.ui-field-contain, fieldset.ui-field-contain {
+  margin: 0;
+  padding: 0.2em 0;
+  border: 0px;
+}
+
+/* counter */ 
+.outer-counter {
+	position:absolute;
+	top:-33px;
+	left:55%;
+	z-index: 9999;
+}
+.inner-counter {
+	border-radius: 13px;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	background: #990000;
+	background: -moz-linear-gradient(100% 100% 90deg, #990000, #ff0000);
+  	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff0000), to(#990000));
+  	background: -webkit-linear-gradient(#ff0000, #990000);
+    background: -o-linear-gradient(#ff0000, #990000);
+    margin:0px;
+    z-index:99999;
+}
+.badge-counter
+	{
+	color:#fff;
+	padding:2px 5px;
+	margin:0;
+	text-align:center;
+ text-shadow:0px -1px 1px #000000; 
+	z-index:999999;
+}
+
+/* custom links etc. */
+.follow_buttons {
+	text-align:center;
+}
+.follow_button {
+	margin: 10px;
+}
+
+.contactform_customtext1 {
+	text-align:center;
+}
+
+.contactform_lotterytext {
+	text-align:left;
+	font-weight: bold;
+	padding-top: 10px;
+	
+}
+
+.dynamic-checkbox-desc {
+	text-align:left;
+	font-weight: bold;
+	padding-top: 10px;
+	
+}
+
+/* contact form elements */
+.required_input {
+	border-color: #ff0000;
+}
+
+.d-cb-req {
+	color: #ff0000;
+	padding-bottom: 5px;
+	font-size: 0.9em;
+	/*font-style:italic;*/
+}
+
+.d-f-req {
+	color: #ff0000;
+	font-size: 0.9em;
+	/*font-style:italic;*/
+	line-height: 1.4;
+    margin-top: 0.5em;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin-left: 22.3%;
+}
+
+.dfield-error {
+	color: #ff0000;
+	font-size: 0.9em;
+	/*font-style:italic;*/
+	line-height: 1.4;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin-left: 22.3%;
+}
+
+.ui-select {
+	margin-bottom: 0.5em;
+}
+
+.dfield-error-left {
+	margin-left: 0%;
+}
+
+@media screen and (orientation: portrait){
+    .d-f-req { margin-left: 0; display: block; }
+}
+
+@media screen and (orientation: landscape){
+    .d-f-req { display: inline-block; margin-left: 22.3%; }
+}
+
+/* form labels */
+.ui-field-contain label.ui-input-text {
+    margin-top: 5px;
+}
+
+/* checkout elements */
+.ifbck_banner {
+	text-align: center;
+}
+
+/* placeholders */
+::-webkit-input-placeholder {color: #ccc;}
+:-moz-placeholder {color: #ccc;}
+.placeholder {color: #ccc;}
+
+#tx_ifeedback_contactform_checkboxes {
+	margin-top: 10px;
+}
+
+.ui-icon-ifeedback-info {
+	background-image: url("http://www.ifbck.com/files/icons/ifeedback-info.png");
+	background-size: 18px 18px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-ifeedback-info {
+		background-image: url("http://www.ifbck.com/files/icons/ifeedback-info.png");
+		background-size: 18px 18px;
+	}
+}
+
+.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 20px !important; }
+.nav-glyphish-example .ui-btn .ui-icon {
+	width: 30px!important; height: 14px!important; margin-left: -15px !important;
+	box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important;
+	border-radius: 0 !important; }
+
+#f27666 .ui-icon { background:  url(uploads/tx_ifeedback/ihotel_55.png) 50% 50% no-repeat; background-size: 16px 16px;  }
+#f27665 .ui-icon { background:  url(uploads/tx_ifeedback/irestaurant_47feb9.png) 50% 50% no-repeat; background-size: 16px 16px;  }
+#f27664 .ui-icon { background:  url(uploads/tx_ifeedback/iconference_620093.png) 50% 50% no-repeat; background-size: 16px 16px;  }
+#f27663 .ui-icon { background:  url(uploads/tx_ifeedback/ispa_75.png) 50% 50% no-repeat; background-size: 16px 16px;  }
+
+.moreicon .ui-icon {
+	background-position-x: -714px;
+  	background-color: transparent;
+}
+
+div#optionform_topic_options {
+  display: inline-block;
+}
+
+#feedbacko .ui-checkbox, .ui-radio {
+  margin: .2em 2em .5em;
+  display: inline-block;
+  width: 450px;
+}
+
+#options-wrapper {
+	display: none;
+}
+
+.radio-wrapper {
+  border-radius: 5px;
+  border: 1px solid #AAA;
+  padding: 10px;
+  background-color: #EEE;
+  margin: 10px 0;
+}
+
+.radio-wrapper .ui-radio {
+  width: 110px;
+}
+
+li[class^="ui-block-"], li[class*=" ui-block-"] {
+    width: 100% !important;
+}

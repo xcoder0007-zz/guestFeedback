@@ -1,0 +1,24 @@
+.controls {
+	margin-bottom: 5px;
+}
+
+.control-label-img {
+  height: 50px;
+  float: left;
+  vertical-align: middle;
+}
+
+.field-row {
+	position: relative;
+  	display: inline-block;
+  	width: 100%;
+}
+
+.many-cols {
+	width: 300px;
+}
+
+.optionizer {
+	height: 19px;
+  	width: 17px;
+}
